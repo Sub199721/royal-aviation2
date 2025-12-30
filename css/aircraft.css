@@ -1,0 +1,325 @@
+/* about section start */
+.aircraft-about{
+    background:  linear-gradient(
+      rgba(1, 1, 1, 0.9)
+    ),url(../image/contact_background.jpg) no-repeat;
+    background-size: cover;
+    background-size: 100% 100%;
+    background-position: center center;
+}
+.aircraft-about-upper{
+    width: 50%;
+    text-align: center;
+    margin: 0 auto;
+    margin-bottom: 92px;
+}
+.simple{
+    display: block;
+}
+.aircraft-about-upper h2{
+    margin-bottom: 18px;
+}
+.aircraft-about-upper p:nth-last-child(1){
+    margin-top: 38px;
+}
+.aircraft-about-child{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding: 74px 80px;
+    border: 2px solid #27220D;
+    border-radius: 70px;
+    margin-bottom: 40px;
+    background-color: #080806;
+}
+.aircraft-about-left,.aircraft-about-right{
+    width: 40%;
+}
+.aircraft-inner-text h3{
+    color: #DDCA67;
+    margin-bottom: 27px;
+}
+.aircraft-inner-text p{
+    margin-bottom: 59px;
+}
+.aircraft-about-right img{
+    border-radius: 20px;
+}
+.aircraft-about-child:nth-child(odd){
+    flex-direction: row-reverse;
+}
+.aircraft-about-child:nth-child(odd) .aircraft-inner-text{
+    text-align: right;
+}
+/* about section end */
+/* divider section start */
+.divider-section{
+  background-color: #090601;
+  border-top: 1px solid #F1E28C;
+  border-bottom: 1px solid #F1E28C;
+}
+.divider-section figure img{
+  display: block;
+  width: 44px;
+  height: 44px;
+}
+.divider-section-child{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+/* divider section end */
+/* faq section start */
+.faq-section {
+    background:  linear-gradient(
+      rgba(1, 1, 1, 0.9)
+    ),url(../image/contact_background.jpg) no-repeat;
+    background-size: cover;
+    background-size: 100% 100%;
+    background-position: center center;
+    color: #F6F5F1;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+.faq-container {
+  background-color: #080806;
+  max-width: 1062px;
+  margin: 0 auto;
+  border-radius: 70px;
+  padding: 75px 72px;
+  border: 2px solid #27220D;
+}
+.faq-upper-section{
+    text-align: center;
+    margin-bottom: 37px;
+
+}
+.faq-badge {
+  display: inline-block;
+  padding: 14px 58px;
+  border-radius: 16px;
+  font-size: 25px;
+  font-weight: 400;
+  color: #F6F5F1;
+  border: 1px solid #F1E28C;
+  margin-bottom: 20px;
+}
+.faq-container h2{
+    text-align: center;
+}
+.faq-container h2 span{
+    display: block;
+}
+
+.faq-list details {
+  border-radius: 20px;
+  padding: 20px;
+  margin-bottom: 18px;
+  border: 1px solid #F1E28C40;
+  background-color: #181817;
+}
+
+.faq-list summary {
+  list-style: none;
+  cursor: pointer;
+  font-size: 27px;
+  font-weight: 500;
+  position: relative;
+}
+
+/* .faq-list summary::-webkit-details-marker {
+  display: none;
+} */
+
+.faq-list summary::after {
+  content: url(../image/dropdown.png);
+  position: absolute;
+  right: 0;
+  top: 0;
+  transition: transform 0.3s ease;
+}
+
+details[open] summary::after {
+  transform: rotate(180deg);
+}
+
+.faq-list p {
+  margin-top: 27px;
+  font-size: 20px;
+  color: #ccc;
+  line-height: 1.6;
+}
+
+/* faq section end */
+/* responsive */
+@media (min-width: 320px) and (max-width: 575.98px) {
+   .abt-btn{
+    font-size: 14px;
+    padding: 15px;
+  }
+       /* about section  */
+.aircraft-about-upper{
+    width: 90%;
+    margin-bottom: 50px;
+}
+.aircraft-about-upper p:nth-last-child(1){
+    margin-top: 10px;
+}
+
+.aircraft-about-child{
+    padding: 40px;
+}
+.aircraft-about-left,.aircraft-about-right{
+    width: 100%;
+}
+.aircraft-about-left{
+    padding-bottom: 30px;
+}
+.aircraft-about-child:nth-child(odd) .aircraft-inner-text{
+    text-align: left;
+}
+.aircraft-inner-text h3{
+    margin-bottom: 20px;
+}
+.aircraft-inner-text p{
+    margin-bottom: 20px;
+}
+/* divider section start */
+.divider-section figure img{
+  display: block;
+  width: 44px;
+  height: auto;
+}
+.divider-section p{
+  font-size: 14px;
+  text-align: center;
+}
+/* faq section start */
+.faq-container{
+  padding: 50px 10px;
+}
+.faq-list details {
+  border-radius: 10px;
+  padding: 10px 2px 10px 10px;
+}
+.faq-list summary {
+  font-size: 12px;
+}
+.faq-list summary::after {
+  content: "⌄";
+}
+.faq-badge{
+  font-size: 18px;
+}
+
+ }
+@media (min-width: 576px) and (max-width: 767.98px) {
+      /* about section  */
+.aircraft-about-upper{
+    width: 80%;
+    margin-bottom: 50px;
+}
+
+.aircraft-about-child{
+    padding: 40px;
+}
+.aircraft-about-left,.aircraft-about-right{
+    width: 100%;
+}
+.aircraft-about-left{
+    padding-bottom: 30px;
+}
+.aircraft-about-child:nth-child(odd) .aircraft-inner-text{
+    text-align: left;
+}
+.aircraftinner-text h3{
+    margin-bottom: 20px;
+}
+.aircraft-inner-text p{
+    margin-bottom: 20px;
+}
+/* divider section start */
+.divider-section figure img{
+  display: block;
+  width: 44px;
+  height: auto;
+}
+.divider-section p{
+  font-size: 14px;
+  text-align: center;
+}
+/* faq section start */
+.faq-container{
+  padding: 50px 25px;
+}
+.faq-list details {
+  border-radius: 20px;
+  padding: 10px;
+}
+.faq-list summary {
+  font-size: 18px;
+}
+.faq-list summary::after {
+  content: "⌄";
+}
+ }
+@media (min-width: 768px) and (max-width: 991.98px) {
+  .abt-btn{
+    font-size: 18px;
+  }
+    /* about section  */
+.aircraft-about-upper{
+    width: 70%;
+    margin-bottom: 100px;
+}
+
+.aircraft-about-child{
+    padding: 40px;
+}
+.aircraft-about-left,.aircraft-about-right{
+    width: 50%;
+}
+.aircraft-about-left{
+    padding-right: 20px;
+}
+.aircraft-about-child:nth-child(odd) .aircraft-about-left{
+    padding-left: 20px;
+}
+.aircraftinner-text h3{
+    margin-bottom: 20px;
+}
+.aircraft-inner-text p{
+    margin-bottom: 20px;
+}
+/* faq section start */
+.faq-list summary {
+  font-size: 20px;
+}
+
+ }
+@media (min-width: 992px) and (max-width: 1199.98px) {
+  /* about section  */
+.aircraft-about-child{
+    padding: 50px;
+}
+.aircraft-about-left,.aircraft-about-right{
+    width: 50%;
+}
+.aircraft-about-left{
+    padding-right: 20px;
+}
+.aircraft-about-child:nth-child(odd) .aircraft-about-left{
+    padding-left: 20px;
+}
+.aircraft-inner-text h3{
+    margin-bottom: 20px;
+}
+.aircraft-inner-text p{
+    margin-bottom: 20px;
+}
+
+ }
+@media (min-width: 1200px) and (max-width: 1399.98px) { 
+
+}

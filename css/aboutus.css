@@ -1,0 +1,250 @@
+/* about royal aviation start */
+.about-royal-aviation{
+    background:  linear-gradient(
+      rgba(1, 1, 1, 0.9)
+    ),url(../image/contact_background.jpg) no-repeat;
+    background-size: cover;
+    background-size: 100% 100%;
+    background-position: center center;
+}
+.about-royal-aviation-upper{
+    width: 60%;
+    margin: 0 auto;
+    text-align: center;
+    margin-bottom: 200px;
+}
+.about-royal-aviation h2{
+    margin-bottom: 20px;
+}
+.about-royal-aviation-middle{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin-bottom: 200px;
+}
+.aboutus-left,.aboutus-right{
+    width: 40%;
+}
+.aboutus-left{
+    display: flex;
+    align-items: center;
+}
+.aboutus-inner p{
+    margin-bottom: 28px;
+}
+.aboutus-right figure img{
+    border-radius: 20px;
+}
+/* royal */
+.about-royal-aviation-down{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding: 74px 80px;
+    border: 2px solid #27220D;
+    border-radius: 70px;
+    margin-bottom: 40px;
+    background-color: #080806;
+}
+.about-royal-left,.about-royal-right{
+    width: 40%;
+}
+.inner-royal-text h3{
+    margin-bottom: 27px;
+}
+.inner-royal-text p{
+    margin-bottom: 59px;
+}
+.about-royal-aviation-down:nth-child(odd){
+    flex-direction: row-reverse;
+}
+.about-royal-aviation-down:nth-child(odd) .inner-royal-text{
+    text-align: right;
+}
+/* about royal aviation end */
+/* commited section start */
+.commited-section{
+    background: url(../image/aviation_img.png) no-repeat;
+    background-size: cover;
+    background-size: 100% 100%;
+    background-position: center;
+    height: 826px;
+    display: flex;
+    align-items: flex-start;
+}
+.commited-child{
+    width: 50%;
+}
+.commited-child h2{
+    margin-bottom: 25px;
+}
+.commited-child p{
+    margin-bottom: 47px;
+}
+.commited-btn{
+    border: 1px solid #DDCA67;
+    color: #FFFFFF;
+    background-color: #080806;
+}
+.commited-btn:hover{
+    color: #040404;
+}
+/* commited section end */
+/* responsive */
+@media (min-width: 320px) and (max-width: 575.98px) { 
+    .abt-btn{
+    font-size: 14px;
+    padding: 15px;
+  }
+                  /* about section  */
+              .about-royal-aviation-upper{
+    width: 90%;
+    margin-bottom: 50px;
+}
+ .about-royal-aviation-middle{
+    margin-bottom: 50px;
+    margin-left: -15px;
+    margin-right: -15px;
+}
+.aboutus-left,.aboutus-right{
+    width: 100%;
+    padding: 0 15px;
+}
+.aboutus-left{
+    margin-bottom: 30px;
+}
+.aboutus-inner p{
+    margin-bottom: 20px;
+}
+.about-royal-aviation-down{
+    padding: 40px;
+}
+.about-royal-left,.about-royal-right{
+    width: 100%;
+}
+.about-royal-left{
+    padding-bottom: 30px;
+}
+.about-royal-aviation-down:nth-child(odd) .inner-royal-text{
+    text-align: left;
+}
+.inner-royal-text h3{
+    margin-bottom: 10px;
+}
+.inner-royal-text p{
+    font-size: 16px;
+    margin-bottom: 10px;
+}
+/* commited section start */
+
+.commited-child{
+    width: 80%;
+}
+.commited-child p{
+    margin-bottom: 25px;
+}
+
+ }
+@media (min-width: 576px) and (max-width: 767.98px) { 
+              /* about section  */
+               .about-royal-aviation-upper{
+    width: 80%;
+    margin-bottom: 80px;
+}
+              .about-royal-aviation-middle{
+    margin-bottom: 50px;
+    margin-left: -15px;
+    margin-right: -15px;
+}
+              .aboutus-left,.aboutus-right{
+    width: 100%;
+    padding: 0 15px;
+}
+.aboutus-left{
+    margin-bottom: 30px;
+}
+.aboutus-inner p{
+    margin-bottom: 20px;
+}
+.about-royal-aviation-down{
+    padding: 40px;
+}
+.about-royal-left,.about-royal-right{
+    width: 100%;
+}
+.about-royal-left{
+    padding-bottom: 30px;
+}
+.about-royal-aviation-down:nth-child(odd) .inner-royal-text{
+    text-align: left;
+}
+.inner-royal-text h3{
+    margin-bottom: 20px;
+}
+.inner-royal-text p{
+    font-size: 16px;
+    margin-bottom: 20px;
+}
+
+ }
+@media (min-width: 768px) and (max-width: 991.98px) { 
+          /* about section  */
+ .about-royal-aviation-upper{
+    width: 70%;
+    margin-bottom: 100px;
+}
+.about-royal-aviation-middle{
+    margin-bottom: 100px;
+}
+.about-royal-aviation-down{
+    padding: 40px;
+}
+.about-royal-left,.about-royal-right{
+    width: 50%;
+}
+.about-royal-left{
+    padding-right: 20px;
+}
+.about-royal-aviation-down:nth-child(odd) .about-royal-left{
+    padding-left: 20px;
+}
+.inner-royal-text h3{
+    margin-bottom: 20px;
+}
+.inner-royal-text p{
+    margin-bottom: 20px;
+}
+
+ }
+@media (min-width: 992px) and (max-width: 1199.98px) { 
+      /* about section  */
+      .about-royal-aviation-upper{
+    width: 60%;
+    margin-bottom: 100px;
+}
+.about-royal-aviation-middle{
+    margin-bottom: 100px;
+}
+.about-royal-aviation-down{
+    padding: 50px;
+}
+.about-royal-left,.about-royal-right{
+    width: 50%;
+}
+.about-royal-left{
+    padding-right: 20px;
+}
+.about-royal-aviation-down:nth-child(odd) .about-royal-left{
+    padding-left: 20px;
+}
+.inner-royal-text h3{
+    margin-bottom: 20px;
+}
+.inner-royal-text p{
+    margin-bottom: 20px;
+}
+
+ }
+@media (min-width: 1200px) and (max-width: 1399.98px) { 
+
+ }
